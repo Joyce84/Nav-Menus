@@ -35,11 +35,12 @@ h2{
 nav li{
     font-size: 2.618rem;
 }
-p{
-    font-size: 1.618rem;
-    padding: 1rem 2rem;
-    float: right;
-    width: 80%;
+
+
+header{
+    border-bottom: 0.8rem solid #B2CC3A;
+    background-color: #767F4A;
+    color: #DEFF48;
 }
 .wrapper{
     max-width: 1400px; 
@@ -48,12 +49,16 @@ p{
     background-color: #ECFF95;
     color: #767F4A;
 }
-header{
-    border-bottom: 0.8rem solid #B2CC3A;
-    background-color: #767F4A;
-    color: #DEFF48;
-}
 
+main{
+    width:80%;
+    float:right;
+}  
+
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+}
 
 /********************* Change Fonts, Colours etc, in CSS above**********************/
 
@@ -106,7 +111,7 @@ header{
 /********************* Vertical Menu **********************/
 
 .menu-v{
-    width: 20%;
+    width:20%;
     float:left;
 }
 
@@ -115,9 +120,9 @@ header{
         /* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
-        list-style-type: none;
-        width:100%;
-        text-align: center;
+         list-style-type: none; 
+         width:100%; 
+         text-align: center; 
     }
 
 
@@ -126,12 +131,12 @@ header{
         .menu-v a:visited{
             /* style the anchors to fill the entire width of the li */
             display: block;
-            width: 100%;
+            width: 100%; 
             
             /*optional*/
             color:#6F7F24;
-            text-decoration: none;
-            border: 1rem solid transparent;
+            text-decoration: none; 
+            border: 0.5rem solid transparent;   
         }
 
 
@@ -140,15 +145,14 @@ header{
             color:#fff;
             background-color:#767F4A;
             font-variant:small-caps;
-        }
+        } 
 }
 
 main{
     width:80%;
-    float: right;
-}
+    float:right;
+} 
+
 footer{
-    width:100%;
     clear:both;
-    text-align: left;
-}
+} 
